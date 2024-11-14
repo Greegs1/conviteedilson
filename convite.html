@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite de Formatura</title>
+    <!-- Link do Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f3f4f6;
+            padding: 20px;
+        }
+
+        .invitation-card {
+            max-width: 600px;
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .invitation-card h1 {
+            color: #4a90e2;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .invitation-card h2 {
+            color: #333;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        .invitation-card p {
+            color: #555;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .event-details p {
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+        .closing-message {
+            margin-top: 20px;
+            font-style: italic;
+        }
+
+        .photo-section {
+            margin-top: 20px;
+        }
+
+        .photo-section img {
+            width: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .logo-image {
+            width: 15%;
+        }
+
+        .whatsapp-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #25d366;
+            color: #fff;
+            font-size: 1.1em;
+            font-weight: bold;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .whatsapp-button:hover {
+            transform: scale(1.05);
+        }
+
+        .whatsapp-button i {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="invitation-card">
+        <img src="https://i.imgur.com/SqQRnBg.png" alt="Logo" class="logo-image">
+
+        <h1>Convite de Formatura</h1>
+        <h2>Terceirão 2024</h2>
+        <p>
+            Com grande alegria e satisfação, convidamos você para ser o Professor Amigo da Turma e para a cerimônia de formatura da nossa turma. <br>
+            Será um momento especial para celebrarmos esta conquista juntos!
+        </p>
+        <div class="event-details">
+            <p><strong>Data:</strong> 06 de dezembro de 2024</p>
+            <p><strong>Horário:</strong> 19h</p>
+            <p><strong>Local:</strong> Auditório da Faculdade Senac Criciúma</p>
+        </div>
+        <p class="closing-message">
+            Esperamos por você para compartilhar este momento inesquecível!
+        </p>
+        <div class="photo-section">
+            <img src="https://i.imgur.com/yysnU4C.png" alt="Foto da Turma">
+        </div>
+        <!-- Botão de WhatsApp -->
+        <a href="https://wa.me/5548998453261?text=Olá,%20gostaria%20de%20confirmar%20minha%20presença%20na%20cerimônia%20de%20formatura."
+           class="whatsapp-button">
+            <i class="fa-brands fa-whatsapp"></i>
+            Favor confirmar presença com o líder
+        </a>
+    </div>
+</body>
+</html>
